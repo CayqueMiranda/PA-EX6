@@ -2,9 +2,11 @@ package com.example.ex6.Services;
 
 import com.example.ex6.Models.ProdutoModel;
 import com.example.ex6.Repositories.ProdutoRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class ProdutoService {
 
     private ProdutoRepository produtoRepository;

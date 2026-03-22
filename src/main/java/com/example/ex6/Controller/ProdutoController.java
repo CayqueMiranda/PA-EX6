@@ -13,6 +13,10 @@ public class ProdutoController {
 
     private ProdutoService produtoService;
 
+    public ProdutoController(ProdutoService produtoService) {
+        this.produtoService = produtoService;
+    }
+
     public ProdutoService getProdutoService() {
         return produtoService;
     }
